@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Comic Sans MS';
+}
+
+.bg-container {
+    background-image: url('https://th.bing.com/th/id/R6190ad497df782734ca665b4f593acfb?rik=klKOBPf9KUPhVw&riu=http%3a%2f%2fscreentalk.com.au%2fwp-content%2fuploads%2f2016%2f04%2f3-2.jpg&ehk=5xjf8HvPy5CiiJrGVXTV%2f%2b3EtxUDOKTvguqMheXvSdk%3d&risl=&pid=ImgRaw');
+    min-height: 100vh;
+    padding: 48px;
+}
+
+.h-container {
+    text-align: center;
+    background-color: #F5F6FA;
+    border-radius: 8px;
+    padding: 1px 0px;
+    margin-bottom: 16px;
+}
+
+.movieFinder-h {
+    color: #330867;
+    font-family: 'Comic Sans MS';
+}
+
+.searchBarContainer {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.searchBar {
+    width: 75%;
+    border-radius: 8px;
+    padding: 16px;
+    border: 0px;
+    background-color: #F5F6FA;
+    margin: auto 16px 16px auto;
+}
+
+.btn {
+    border: 0px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    background-color: #009efd;
+    color: white;
+    font-size: 16px;
+}
+
+.movie-result {
+    background-color: #F5F6FA;
+    border-radius: 4px;
+    display: flex;
+    padding: 6px;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.movie-result-img {
+    width: 150px;
+    margin-right: 16px;
+}
+
+.movie-result-details {
+    padding: 8px;
+}
+
+
+.movie-result-h {
+    font-size: 28px;
+    text-align: center;
+}
+
+.movie-result-btn-container {
+    text-align: center;
+}
+
+.movie-result-btn {
+    border: 0px;
+    border-radius: 4px;
+    padding: 8px 20px;
+    background-color: #f6d365;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+
+@media (max-width : 576px) {
+    .movie-result {
+        width: 100%;
+    }
+
+    .movie-result-img {
+        width: 45%;
+    }
+
+    .movie-result-h {
+        font-size: 18px;
+    }
+}
+
+@media (min-width : 768px) {
+    .movie-result {
+        flex-direction: column;
+        width: 40vw;
+    }
+
+    .movie-result-img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .movie-result-details {
+        padding: 16px;
+    }
+}
